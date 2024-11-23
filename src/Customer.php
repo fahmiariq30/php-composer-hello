@@ -1,6 +1,6 @@
 <?php
 
-namespace Programmer\Belajar;
+namespace ProgrammerNeuron\Belajar;
 
 class Customer {
 

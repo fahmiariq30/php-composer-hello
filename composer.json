@@ -1,11 +1,11 @@
 {
-    "name": "programmer/belajar-php-composer-hello",
+    "name": "programmerneuron/belajar-php-composer-hello",
     "version": "8",
     "description": "Library Composer Hello",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Programmer\\Belajar\\": "src/"
+            "ProgrammerNeuron\\Belajar\\": "src/"
         }
     },
     "authors": [
@@ -14,7 +14,14 @@
             "email": "fahmiariq3007@gmail.com"
         }
     ],
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/fahmiariq30/php-composer-hello.git"
+    }
+],
     "require": {
-        "php" : ">=8.0"
+        "php" : ">=8.0",
+        "programmerneuron/belajar-php-composer-hello": "1.0.0",
+        "monolog/monolog" : "2.2.0"
     }
 }
