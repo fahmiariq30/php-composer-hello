@@ -1,0 +1,20 @@
+{
+    "name": "programmer/belajar-php-composer-hello",
+    "version": "8",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Programmer\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fahmiariq30",
+            "email": "fahmiariq3007@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
